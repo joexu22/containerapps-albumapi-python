@@ -38,3 +38,7 @@ def read_root():
 @app.get("/albums")
 def get_albums():
     return albums
+
+@app.get("/hello")
+def get_test():
+    return {"Hey CoreInfra Team"}
