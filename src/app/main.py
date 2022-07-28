@@ -34,7 +34,6 @@ albums = [
 def read_root():
     return {"Azure Container Apps Python Sample API"}
 
-
 @app.get("/albums")
 def get_albums():
     return albums
