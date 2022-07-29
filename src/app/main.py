@@ -36,7 +36,7 @@ def get_albums():
     return albums
 
 @app.get("/hello")
-def get_test():
+def get_hello():
     return {"Hey CoreInfra Team"}
 
 @app.get("/goodbye")
