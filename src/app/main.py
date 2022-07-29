@@ -27,9 +27,10 @@ albums = [
     Album(2, "Hit the Road Jack", "Ray Charles", "Hit the Road Jack", "https://images-na.ssl-images-amazon.com/images/I/51yihgHF-5L._SY300_SX300_QL70_FMwebp_.jpg", "https://www.youtube.com/watch?v=uSiHqxgE2d0"),
     Album(3, "Nimrod", "Green Day", "Good Riddance (Time Of Your Life)", "https://m.media-amazon.com/images/I/71dBwWTWgKL._SX425_.jpg", "https://www.youtube.com/watch?v=CnQ8N1KacJc"),
     Album(4, "Time at JnJ", "Xu Labels", "I'll Miss Y'all", "https://image.shutterstock.com/image-vector/chinese-calligraphy-translation-xu-a-260nw-1773157127.jpg", "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
-    Album(5, "Making Mirrors", "Gotye", "Goodbye Stranger", "https://m.media-amazon.com/images/I/91vXYllHodL._SX425_.jpg", "https://www.youtube.com/watch?v=8UVNT4wvIGY"),
-    Album(6, "Breakfast in America", "Supertramp", "Breakfast in America", "https://upload.wikimedia.org/wikipedia/en/c/c4/Supertramp_-_Breakfast_in_America.jpg", "https://www.youtube.com/watch?v=u8pVZ5hTGJQ"),
-    Album(7, "Feeling Strangely Fine", "Semisonic", "Closing Time", "https://images-na.ssl-images-amazon.com/images/I/61nyQCkciLL._SX300_SY300_QL70_FMwebp_.jpg", "https://www.youtube.com/watch?v=xGytDsqkQY8"),
+    Album(6, "No Strings Attached", "NSYNC", "Bye Bye Bye", "https://m.media-amazon.com/images/I/812H+OFXlCL._SX425_.jpg", "https://www.youtube.com/watch?v=Eo-KmOd3i7s"),
+    Album(5, "Making Mirrors", "Gotye", "Somebody That I Used to Know", "https://m.media-amazon.com/images/I/91vXYllHodL._SX425_.jpg", "https://www.youtube.com/watch?v=8UVNT4wvIGY"),    
+    Album(7, "Breakfast in America", "Supertramp", "Goodbye Stranger", "https://m.media-amazon.com/images/I/51Xs5nXws8L._UX358_FMwebp_QL85_.jpg", "https://www.youtube.com/watch?v=u8pVZ5hTGJQ"),
+    Album(8, "Feeling Strangely Fine", "Semisonic", "Closing Time", "https://images-na.ssl-images-amazon.com/images/I/61nyQCkciLL._SX300_SY300_QL70_FMwebp_.jpg", "https://www.youtube.com/watch?v=xGytDsqkQY8"),
 ]
 
 @app.get("/")
