@@ -14,17 +14,22 @@ app.add_middleware(
 )
 
 class Album():
-    def __init__(self, id, title, artist, price, image_url, link):
+    def __init__(self, id, title, artist, song, image_url, link):
          self.id = id
          self.title = title
          self.artist = artist
-         self.price = price
+         self.song = song
          self.image_url = image_url
          self.link = link
 
-albums = [ 
-    Album(1, "Feeling Strangely Fine", "Semisonic", "Closing Time", "https://images-na.ssl-images-amazon.com/images/I/61nyQCkciLL._SX300_SY300_QL70_FMwebp_.jpg", "https://www.youtube.com/watch?v=xGytDsqkQY8"),
-    Album(2, "Nimrod", "Green Day", "Green Day - Good Riddance (Time Of Your Life)", "https://m.media-amazon.com/images/I/71dBwWTWgKL._SX425_.jpg", "https://www.youtube.com/watch?v=CnQ8N1KacJc"),
+albums = [
+    Album(1, "The Jimi Hendrix Experience", "Jimi Hendrix", "Hey Joe", "https://m.media-amazon.com/images/I/810UEpS8ctL._AC_UY218_.jpg", "https://www.youtube.com/watch?v=rXwMrBb2x1Q"),
+    Album(2, "Hit the Road Jack", "Ray Charles", "Hit the Road Jack", "https://images-na.ssl-images-amazon.com/images/I/51yihgHF-5L._SY300_SX300_QL70_FMwebp_.jpg", "https://www.youtube.com/watch?v=uSiHqxgE2d0"),
+    Album(3, "Nimrod", "Green Day", "Green Day - Good Riddance (Time Of Your Life)", "https://m.media-amazon.com/images/I/71dBwWTWgKL._SX425_.jpg", "https://www.youtube.com/watch?v=CnQ8N1KacJc"),
+    Album(4, "Time at JnJ", "Xu Labels", "I'll Miss Y'all", "http://xuguanzhou.io/theme/images/profile.png", "https://www.youtube.com/watch?v=dQw4w9WgXcQ"),
+    Album(5, "Breakfast in America", "Supertramp", "Breakfast in America", "https://upload.wikimedia.org/wikipedia/en/c/c4/Supertramp_-_Breakfast_in_America.jpg", "https://www.youtube.com/watch?v=u8pVZ5hTGJQ"),
+    Album(6, "Making Mirrors", "Gotye", "Somebody That I Used To Know", "https://m.media-amazon.com/images/I/91vXYllHodL._SX425_.jpg", "https://www.youtube.com/watch?v=8UVNT4wvIGY"),
+    Album(7, "Feeling Strangely Fine", "Semisonic", "Closing Time", "https://images-na.ssl-images-amazon.com/images/I/61nyQCkciLL._SX300_SY300_QL70_FMwebp_.jpg", "https://www.youtube.com/watch?v=xGytDsqkQY8"),
 ]
 
 @app.get("/")
